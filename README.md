@@ -21,5 +21,5 @@ Ambas interfaces son accesibles y para asegurarnos de ello se ha utilizado la ex
 [Enlace al documento figma](https://www.figma.com/file/0dUD4ZtkmSN1AnuwT1pbOa/T4.1SesteloDaniela?type=design&mode=design&t=mRS3LgBdBVBZc2O1-1)
 
 
-[Enlace a la web](https://danielasestelod.github.io)
+[Enlace a la web](https://danielasestelod.github.io/home.html)
 
