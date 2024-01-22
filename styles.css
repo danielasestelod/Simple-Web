@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Jost;
+    src: url(fuentes/Jost-VariableFont_wght.ttf);
+    
+}
+@font-face {
+    font-family: Krona;
+    src: url(fuentes/KronaOne-Regular.ttf);
+    
+}
+body{
+    margin: 0;
+    font-family:Jost,Arial, Helvetica, sans-serif;
+    animation: 1.5s ease-out 0s 1 slideInLeft;
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+p,h1,h2,h3,h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+nav{
+    
+    padding-right: 7%;
+    background-color: #141414;
+}
+#nav_bar{
+    background-color:#141414;
+    
+    height: 40%;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #EFEFEF;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    margin: 15% 0;
+}
+#opciones_menu_hamburguesa{
+    text-decoration: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #141414;
+    margin: 0;
+    padding: 10%;
+    opacity: 0.95;
+    transition: all 0.1s ease, transform 1s;
+}
+
+#icono_x{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10%;
+}
+#menu_hamburguesa{
+    display: none;
+}
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+#menu_desktop {
+    display: flex;
+    align-items: center;
+}
+#menu_desktop>a{
+    display: inline-block;
+    margin-right: 10%;
+    
+}
+
+#menu_desktop>a:hover{
+    color: #BD9C8A;
+    font-size: x-large;
+}
+
+#home_marcada:hover{
+    content: url(imagenes/vectorCasitaSeleccionada.svg);
+    
+    
+    /*width: 7.5vw;*/
+    transform:scale(1.3);transform:scale(1.3);
+}
+.opcion_marcada{
+    color: #BD9C8A;
+}
+#home_main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*@media only screen and (min-width:576px) {
+    /*#opciones_menu_hamburguesa{
+        display: none;
+    }
+    
+}*/
+
+#home_header{
+    background-color: #BD9C8A;
+    width: 100%;
+    height: fit-content;
+    padding-top:4%;
+    padding-bottom: 4%;
+    text-align: center;
+
+}
+#home_subtitle{
+    display: block;
+    font-weight: normal;
+    margin:2%;
+}
+#home_title{
+    font-family: Krona,Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0%;
+    margin-bottom: 2%;
+}
+
+#home_main > section > h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:larger;
+
+}
+.home_img_cafe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+
+#contact_main>section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 10% 0;
+    background-color: #BD9C8A;
+    font-size: 5vmin;
+}
+#contact_section{
+    margin: 4%;
+   
+}
+
+#about_header{
+    margin: 5% 0%;
+    background-color: #BD9C8A;
+    height:fit-content;
+    padding:1% ;
+}
+#about_subtitle{
+    font-weight:600;
+    font-size: 5vmin;
+    text-align:center;
+    text-justify:distribute;
+    margin: 4%;
+}
+#about_main_section_taza{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5%;
+}
+#about_main_section_granos{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding: 5%;
+}
+/*about_main>section->podemos con selectores  con un ID para section hace lo mismo*/
+/* #about_main>section{
+   width: 20vw;
+} */
+#imgTaza{
+    width: 50%;
+}
+#imgPlanta{
+    width: 50%;
+}
+#about_main>section>p{
+    display: inline-block;
+    width: 50%;
+    overflow: visible;
+    font-size: 5vmin;
+    margin: 0% 5%;
+}
+
+@media only screen and (max-width:576px){
+    #menu_desktop{
+        display: none;
+    }
+    #menu_hamburguesa{
+        display: block;
+    }
+    #home_main{
+        flex-direction: column;
+    }
+    .break{
+        display: none;
+    }
+    #about_main_section_taza{
+        flex-direction:column ;
+        align-items: center;
+    }
+    #about_main_section_granos{
+        flex-direction: column;
+        align-items: center;
+    }
+    #imgTaza{
+        width: 80%;
+    }
+    #imgPlanta{
+        width: 80%;
+    }
+    #about_main>section>p{
+        width: 100%;
+        display: block;
+        text-align: justify;
+        margin: 5% 0;
+        
+    }
+    
+}
+

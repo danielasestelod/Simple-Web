@@ -1,0 +1,21 @@
+S-Animaciones slide<----
+--------------------------------------
+S{Rev}- Documento en Figma (crea un diseño nuevo, aunque puedes partir del ya realizado). 
+Asegúrate que las resoluciones son adecuadas para cada uno de las versiones
+S- Barra de navegación en desktop. En móvil puedes usar menu hamburguesa 
+S- Uso de imágenes (externas y/o locales a tu convenir)
+S- No debe contener errores de accesibilidad (usa la extension wave.webaim de chrome o firefox en local para comprobarlo)<---
+https://wave.webaim.org/extension/
+- Debe usar al menos tres “leyes” de UX<--- 
+	LSemejanza-iconos similares menu
+	LRegComun-menu desktop
+	LHick-pocas ociones en los menus
+	
+S- Utiliza import y export de código js <---
+S- Utiliza al menos una función arrow =>
+S- Utiliza al menos un objeto<----S
+S- Crea Navigation links. Utiliza <nav> (home, contact, about)
+
+-->-En el DOCUMENTO google se explica el cómo y porqué lo has implementado atendiendo a los principios de UX,  accesibilidad y usabilidad. Máximo 5 folios contando capturas.
+Ejemplo: En la capturaX se observa la implementación de la ley de Hicks en el UI… 
+Por otra parte, atendiendo a WAI-ARIA se han creado A,B,C elementos, los cuales...<---
