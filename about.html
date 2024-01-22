@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sobre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div id="nav_bar">
+                <img src="imagenes/vectorMenuHamburguesa.svg" alt="menu hamburguesa" id="menu_hamburguesa"/>
+                <ul id="opciones_menu_hamburguesa"class="hidden" >
+                    <li id="icono_x">
+                        <img src="imagenes/VectorX.svg" alt="icono de una x">
+                    </li>
+                    <li>
+                        <a href="home.html">
+                            <img src="imagenes/vectorCasitaDesplegable.svg" alt="icono de casita"/>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <img src="imagenes/vectorIconoInfo.svg" alt="icono de información"/>
+                            <span>Sobre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <img src="imagenes/vectorIconoTlf.svg" alt="icono de teléfono"/>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+                <div id="menu_desktop">
+                    <a href="home.html">
+                        <img src="imagenes/vectorCasita.svg" alt="icono de casita" id="home_marcada"/>
+                    </a>
+                    <a href="about.html" class="opcion_marcada">SOBRE</a>
+                    <a href="contact.html">CONTACTO</a>
+                </div>
+                <img src="imagenes/granosCafe.png" alt="granos de café">
+            </div>
+       </nav>
+
+       <header id="about_header">
+            <h3 id="about_subtitle">Somos una tienda de importación de café en grano
+            que tostamos localmente cada día para ofrecerte un café fresco y
+            especial. 
+            </h3>
+       </header>
+       <main id="about_main">
+            <section id="about_main_section_taza">
+                <img src="imagenes/GranosCafe.jpg" alt="imagen de taza de café" id="imgTaza">
+                <p id="about_txt">Ofrecemos cafés de distintas procedencias para que
+                    descubras nuevos sabores.
+                </p>  
+            </section>
+            <section id="about_main_section_granos">
+                <p>Trabajamos directamente con pequeños caficultores de todo el mundo para ofrecer el mejor café.</p>
+                <img src="imagenes/PlantaCafe.jpg" alt="imagen de planta de café" id="imgPlanta">  
+            </section>
+       </main>
+
+       <script src="Menu.js" type="module"></script>
+
+       
+    </body>
+</html>
